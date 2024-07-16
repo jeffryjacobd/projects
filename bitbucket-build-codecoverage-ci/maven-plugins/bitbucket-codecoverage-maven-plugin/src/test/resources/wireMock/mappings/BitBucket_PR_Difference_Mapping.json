@@ -1,0 +1,10 @@
+{
+	"request": {
+		"url": "/rest/api/1.0/projects/XA/repos/x27Assets/pull-requests/1.diff",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"body": "+++ dst://test-module1/src/main/java/test/App.java\n+++ dst://test-module2/src/main/java/test/App1.java\n+++ dst://test-module2/src/test/java/test/App1Test.java\n+++ dst://test-module3/test-module4/src/main/java/test/App4.java"
+	}
+}

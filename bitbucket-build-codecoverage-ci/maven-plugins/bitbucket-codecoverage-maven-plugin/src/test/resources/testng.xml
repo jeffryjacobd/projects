@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="bitbucket-codecoverage-maven-plugin" verbose="1">
+	<test name="plugin test">
+		<packages>
+			<package name="com.suntecgroup.maven.plugin" />
+		</packages>
+	</test>
+</suite>

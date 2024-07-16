@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>test</groupId>
+	<artifactId>testProject</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>test project</name>
+
+
+	<modules>
+		<module>test-module1</module>
+		<module>test-module2</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.suntecgroup.maven.plugin</groupId>
+				<artifactId>bitbucket-codecoverage-maven-plugin</artifactId>
+				<version>1.0-SNAPSHOT</version>
+				<configuration>
+					<bitbucketUrl>http://localhost:8999/</bitbucketUrl>
+					<token>123</token>
+					<commitId>123</commitId>
+					<projectKey>XA</projectKey>
+					<repoSlug>x27Assets</repoSlug>
+					<pullRequestId>1</pullRequestId>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

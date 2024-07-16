@@ -1,0 +1,47 @@
+import org.jenkinsci.plugins.workflow.steps.FlowInterruptedException
+
+@Library('build-status-update@master')
+import com.suntecgroup.jenkins.pipeline.buildStatus.enumerations.BuildStatus
+
+
+node {
+  
+  tool name: 'jdk17', type: 'jdk'
+  tool name: 'mvn', type: 'maven'
+  
+  withCredentials([string(credentialsId: 'bitbucket-reporead', variable: 'HTTP_ACCESS_TOKEN')]) {
+      	env.BIT_BUCKET = 'http://sbstjvmlx2102:7990'
+  	try {
+          
+    	stage('Initialize') {
+            
+      		updateBuildStatus (BuildStatus.INPROGRESS, this)
+      		git credentialsId: '033e7230-ec25-405c-8374-167b782fc4ef', poll: false, url: 'http://sbstjvmlx2102:7990/scm/temp/x27_assets.git', branch: prFromBranch   
+    	}
+
+    	stage('Build') {   	
+        	withMaven(jdk: 'jdk17', maven: 'mvn', mavenSettingsConfig: 'mavenSettings', traceability: true) {
+        		sh "mvn verify -T2C "
+      		}
+        	testNG()
+          	echo sh( script: 'env|sort', returnStdout: true)
+        }
+    
+    	stage('Intimate Success to bitbucket ') {
+          	updateBuildStatus (BuildStatus.SUCCESSFUL, this)
+		}
+    
+    
+  	} catch (FlowInterruptedException interruption) {
+    	echo "Interruption"
+      	testNG()
+       	updateBuildStatus (BuildStatus.ABORTED, this)
+    	throw interruption;
+  	} catch (Exception exception) {
+    	echo "Exception"
+       	updateBuildStatus (BuildStatus.FAILED, this)
+  		throw exception;
+    }
+  }
+  
+}

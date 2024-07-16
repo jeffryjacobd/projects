@@ -1,0 +1,348 @@
+[INFO] Error stacktraces are turned on.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'configuration' (position: START_TAG seen ...<!--all requests to nexus via the mirror -->\n\n<configuration>... @16:16)  @ C:\Application\maven\bin\..\conf\settings.xml, line 16, column 16
+[WARNING] Unrecognised tag: 'configuration' (position: START_TAG seen ...<!--all requests to nexus via the mirror -->\n\n<configuration>... @16:16)  @ C:\Users\jeffryj\.m2\settings.xml, line 16, column 16
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] test project                                                       [pom]
+[INFO] test-module1                                                       [jar]
+[INFO] test-module2                                                       [jar]
+[INFO] test project 3                                                     [pom]
+[INFO] test-module1                                                       [jar]
+[INFO] test-module1                                                       [jar]
+[INFO] 
+[INFO] --------------------------< test:testProject >--------------------------
+[INFO] Building test project 1.0-SNAPSHOT                                 [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/jacoco-maven-plugin/0.8.10/jacoco-maven-plugin-0.8.10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/jacoco-maven-plugin/0.8.10/jacoco-maven-plugin-0.8.10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.build/0.8.10/org.jacoco.build-0.8.10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.build/0.8.10/org.jacoco.build-0.8.10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-bom/9.5/asm-bom-9.5.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-bom/9.5/asm-bom-9.5.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/jacoco-maven-plugin/0.8.10/jacoco-maven-plugin-0.8.10.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/jacoco-maven-plugin/0.8.10/jacoco-maven-plugin-0.8.10.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ testProject ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ testProject ---
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-parent/9/maven-parent-9.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-parent/9/maven-parent-9.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-parent/7/maven-parent-7.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-parent/7/maven-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/junit/junit/4.13.1/junit-4.13.1.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/junit/junit/4.13.1/junit-4.13.1.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.core/0.8.10/org.jacoco.core-0.8.10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.core/0.8.10/org.jacoco.core-0.8.10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm/9.5/asm-9.5.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm/9.5/asm-9.5.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.report/0.8.10/org.jacoco.report-0.8.10.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.report/0.8.10/org.jacoco.report-0.8.10.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.jar
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.jar
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/junit/junit/4.13.1/junit-4.13.1.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/junit/junit/4.13.1/junit-4.13.1.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.core/0.8.10/org.jacoco.core-0.8.10.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm/9.5/asm-9.5.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm/9.5/asm-9.5.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.core/0.8.10/org.jacoco.core-0.8.10.jar (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.report/0.8.10/org.jacoco.report-0.8.10.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.jar (0 B at 0 B/s)
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar (0 B at 0 B/s)
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar (0 B at 0 B/s)
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar (0 B at 0 B/s)
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/jacoco/org.jacoco.report/0.8.10/org.jacoco.report-0.8.10.jar (0 B at 0 B/s)
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\target\\jacoco.exec
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ testProject ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] -------------------------< test:test-module1 >--------------------------
+[INFO] Building test-module1 1.0-SNAPSHOT                                 [2/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ test-module1 ---
+[INFO] Deleting C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ test-module1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\test-module1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test-module1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test-module1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test-module1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test-module1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test-module1 ---
+[INFO] Surefire report directory: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target\surefire-reports
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom (0 B at 0 B/s)
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.jar (0 B at 0 B/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running test.AppTest
+Hello World!
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ test-module1 ---
+[INFO] Loading execution data file C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target\jacoco.exec
+[INFO] Analyzed bundle 'test-module1' with 1 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ test-module1 ---
+[INFO] Building jar: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module1\target\test-module1-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------------< test:test-module2 >--------------------------
+[INFO] Building test-module2 1.0-SNAPSHOT                                 [3/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ test-module2 ---
+[INFO] Deleting C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ test-module2 ---
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\test-module2\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test-module2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test-module2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test-module2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test-module2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test-module2 ---
+[INFO] Surefire report directory: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running test.App1Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ test-module2 ---
+[INFO] Loading execution data file C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target\jacoco.exec
+[INFO] Analyzed bundle 'test-module2' with 1 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ test-module2 ---
+[INFO] Building jar: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module2\target\test-module2-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------------< test:test-module3 >--------------------------
+[INFO] Building test project 3 1.0-SNAPSHOT                               [4/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ test-module3 ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ test-module3 ---
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\test-module3\\target\\jacoco.exec
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ test-module3 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] -------------------------< test:test-module4 >--------------------------
+[INFO] Building test-module1 1.0-SNAPSHOT                                 [5/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ test-module4 ---
+[INFO] Deleting C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ test-module4 ---
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\test-module3\\test-module4\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test-module4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test-module4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test-module4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test-module4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test-module4 ---
+[INFO] Surefire report directory: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running test.App4Test
+Hello World!
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.185 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ test-module4 ---
+[INFO] Loading execution data file C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target\jacoco.exec
+[INFO] Analyzed bundle 'test-module1' with 2 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ test-module4 ---
+[INFO] Building jar: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module4\target\test-module4-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------------< test:test-module5 >--------------------------
+[INFO] Building test-module1 1.0-SNAPSHOT                                 [6/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ test-module5 ---
+[INFO] Deleting C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (prepare-agent) @ test-module5 ---
+[INFO] argLine set to -javaagent:C:\\Users\\jeffryj\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=C:\\Workspace\\ci\\maven-plugins\\bitbucket-codecoverage-maven-plugin\\src\\test\\resources\\testRun\\test-module3\\test-module5\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test-module5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test-module5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test-module5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test-module5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test-module5 ---
+[INFO] Surefire report directory: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running test.AppTest
+Hello World!
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:report (report) @ test-module5 ---
+[INFO] Loading execution data file C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target\jacoco.exec
+[INFO] Analyzed bundle 'test-module1' with 1 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ test-module5 ---
+[INFO] Building jar: C:\Workspace\ci\maven-plugins\bitbucket-codecoverage-maven-plugin\src\test\resources\testRun\test-module3\test-module5\target\test-module5-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------------< test:testProject >--------------------------
+[INFO] Building test project 1.0-SNAPSHOT                                 [7/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- bitbucket-codecoverage-maven-plugin:1.0-SNAPSHOT:publish (default-cli) @ testProject ---
+[INFO] Downloading from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+[INFO] Downloaded from nexus: http://sbstjvmlx301.suntecsbs.com:8081/nexus/content/groups/Xelerate3/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (0 B at 0 B/s)
+[INFO] Processing difference in PR
+[INFO] Processed difference in PR
+[INFO] Creating code coverage entities
+[INFO] Created code coverage entities
+[INFO] Publishing code coverage to Bitbucket
+[INFO] Published code coverage to Bitbucket
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for test project 1.0-SNAPSHOT:
+[INFO] 
+[INFO] test project ....................................... SUCCESS [  2.739 s]
+[INFO] test-module1 ....................................... SUCCESS [  7.730 s]
+[INFO] test-module2 ....................................... SUCCESS [  2.508 s]
+[INFO] test project 3 ..................................... SUCCESS [  0.025 s]
+[INFO] test-module1 ....................................... SUCCESS [  2.904 s]
+[INFO] test-module1 ....................................... SUCCESS [  2.249 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.950 s
+[INFO] Finished at: 2023-08-14T16:48:57+05:30
+[INFO] ------------------------------------------------------------------------
